@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter first number"
+        android:inputType="number"
+        android:textColor="#6A0716"
+        android:textColorHighlight="#673AB7"
+        android:textColorHint="#0528EA"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter second number"
+        android:inputType="number"
+        android:textColor="#6A0716"
+        android:textColorHint="#0D2ACA"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Addition"
+        android:textColor="#3CB641"
+        android:textColorHighlight="#CB2DE6"
+        android:textColorHint="#00BCD4"
+        android:textColorLink="#87290C"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Subtraction"
+        android:textColor="#3CB641"
+        android:textColorHighlight="#CB2DE6"
+        android:textColorHint="#00BCD4"
+        android:textColorLink="#87290C"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnMulti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Multiplication"
+        android:textColor="#3CB641"
+        android:textColorHighlight="#CB2DE6"
+        android:textColorHint="#00BCD4"
+        android:textColorLink="#87290C"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Divison"
+        android:textColor="#3CB641"
+        android:textColorHighlight="#CB2DE6"
+        android:textColorHint="#00BCD4"
+        android:textColorLink="#87290C"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="#F8EDED"
+        android:text="Ans:"
+        android:textColor="#068534"
+        android:textColorHighlight="#B3C50A"
+        android:textColorHint="#7A1D1D"
+        android:textSize="30sp" />
+
+</LinearLayout>
